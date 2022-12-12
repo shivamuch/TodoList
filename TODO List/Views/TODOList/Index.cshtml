@@ -1,0 +1,79 @@
+﻿@model IEnumerable<TODO_List.Models.TODOList>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Tasks List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">
+        <i class="fa fa-wpforms"></i> Create Task</a>
+</p>
+@{
+    int count = 0;
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Descripation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Createddate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            count++;
+            <tr>
+                <td>
+                    <p>@count</p>
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Createddate)
+            </td>
+                 <td>
+                     @if(item.Status){
+                         <p>Complete</p>
+                     }else{
+                       <p>Un-complete</p>
+                     }
+                </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">
+                        <i class="fa fa-edit"></i>
+                    Update Status</a>
+                <a asp-action="Details" asp-route-id="@item.Id"
+                   class="btn btn-info">
+                        <i class="fa fa-leanpub"></i>
+                        See Details
+                    </a>                   
+                <a type="button" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                        <i class="fa fa-trash"></i>
+                        Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
