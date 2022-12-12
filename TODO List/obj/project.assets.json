@@ -10866,11 +10866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shivam/Downloads/TODO List/TODO List/TODO List.csproj",
+      "projectUniqueName": "/Users/shivam/Cambrian/Web/TODO List/TODO List/TODO List.csproj",
       "projectName": "TODO List",
-      "projectPath": "/Users/shivam/Downloads/TODO List/TODO List/TODO List.csproj",
+      "projectPath": "/Users/shivam/Cambrian/Web/TODO List/TODO List/TODO List.csproj",
       "packagesPath": "/Users/shivam/.nuget/packages/",
-      "outputPath": "/Users/shivam/Downloads/TODO List/TODO List/obj/",
+      "outputPath": "/Users/shivam/Cambrian/Web/TODO List/TODO List/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shivam/.nuget/NuGet/NuGet.Config"
