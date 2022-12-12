@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{C2259F7E-B63D-4A03-B0C9-B9847E7D1E09}|Default">
+  <MonoDevelop.Ide.ItemProperties.TODO_220List PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TODO List/appsettings.json">
+    <Files>
+      <File FileName="TODO List/appsettings.json" Line="16" Column="6" />
+      <File FileName="TODO List/Data/TODOListContext.cs" Line="22" Column="1" />
+      <File FileName="TODO List/Program.cs" Line="6" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TODO List" expanded="True">
+            <Node name="TODO List" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
